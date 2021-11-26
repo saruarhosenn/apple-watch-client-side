@@ -1,0 +1,39 @@
+.admin-area{
+    border-right: 2px solid #0B5ED7;
+    
+}
+.all-menu button{
+background:#0B5ED7 ;
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+padding: 6px 0 6px 50px;
+border: 0;
+border-radius: 6px;
+width: 80%;
+text-align:left ;
+
+}
+
+.all-menu li{
+    list-style-type: none;
+}
+.dashboard{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.dashboardprofile img{
+border-radius: 50%;
+margin-top: 20px;
+}
+.dashboardprofile p {
+    font-size: 26px;
+}
+
+
+@media only screen and (nax-width:668px) {
+    .admin-area{
+        border-right:none;
+    }
+}
